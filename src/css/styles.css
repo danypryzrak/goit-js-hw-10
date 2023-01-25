@@ -7,9 +7,11 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
-  color: #212121;
+  background-image: url(../images/planet.jpg);
+  background-position: center;
+  color: #fafafa;
   line-height: 1.5;
+  padding-left: 40%;
 }
 
 #search-box {
@@ -17,10 +19,21 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  margin-left: 38px;
+background-color: rgb(0, 115, 255);
+
+border-radius: 10px;
+border: none;
+  
+}
+
+.page-title{
+  color:rgb(255, 255, 255);
 }
 
 .country-list{
 list-style: none;
+padding: 0;
 }
 
 .country-list__item{
@@ -49,6 +62,7 @@ list-style: none;
   list-style: none;
   padding-left: 8px;
   margin: 0;
+  text-align: center;
 }
 
 .country-info__item{

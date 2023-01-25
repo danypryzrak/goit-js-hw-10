@@ -36,7 +36,7 @@ function firstStep(ev) {
                 const markup = countries.map((country) => {
                     return `<div class ="country-info__title">
                     <img class= "listSvg" src= "${country.flags.svg}"></img>
-                    <h1>${country.name.common}</h1>
+                    <h2>${country.name.common}</h2>
                     </div>
                     <ul class = "country-info__list">
                     <li class = "country-info__item"><h3>Capital:</h3><p>${country.capital}</p></li>
