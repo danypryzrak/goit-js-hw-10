@@ -18,3 +18,41 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list{
+list-style: none;
+}
+
+.country-list__item{
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+.listSvg{
+  max-width: 44px;
+  max-height: 44px;
+}
+
+.listText{
+  text-transform: uppercase;
+  text-shadow: #212121;
+}
+
+.country-info__title{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.country-info__list{
+  list-style: none;
+  padding-left: 8px;
+  margin: 0;
+}
+
+.country-info__item{
+  display: flex;
+  gap:  10px;
+  align-items: baseline;
+}
